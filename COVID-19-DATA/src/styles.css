@@ -1,0 +1,182 @@
+/* styles.css */
+
+/* Common styles for the CovidData component */
+.CovidData {
+    text-align: center;
+    margin-top: 10%;
+    position: relative;
+}
+
+/* Styles for the block with date pickers */
+.DatePickerBlock {
+    padding-bottom: 5%;
+    display: flex;
+}
+/* Set margins for datePickerField labels */
+.datePickerField label {
+    margin-left: 180px;
+    margin-right: 10px;
+}
+
+/* Styles for buttons */
+.button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+    /* Button styles for different states and types */
+    .button.normal {
+        background-color: #4CAF50;
+        color: white;
+    }
+
+    .button.current {
+        background-color: #555;
+        color: white;
+    }
+
+    .button.ellipsis {
+        background-color: #ccc;
+        color: #555;
+    }
+
+    .button.double-arrow {
+        background-color: #007BFF;
+        color: white;
+    }
+
+.PageButton {
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* Styles for a normal button */
+.PageButtonNormal {
+    background-color: #4CAF50;
+    color: white;
+}
+/* Styles for the current button */
+.PageButtonCurrent {
+    background-color: #555;
+    color: white;
+}
+/* Styles for the reset filters button */
+.ResetButton {
+    background-color: #555;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Styles for the table */
+.Table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 3px solid #ddd;
+}
+    /* Styles for table headers */
+    .Table th {
+        border: 1px solid #ddd;
+        padding: 8px;
+        cursor: pointer;
+        background-color: #4CAF50;
+        color: white;
+    }
+
+    /* Styles for table rows */
+    .Table tbody {
+        text-align: center;
+        background-color: whitesmoke;
+        border: 3px solid #ddd;
+    }
+
+/* Styles for inputs */
+.Input {
+    padding: 1%;
+}
+
+/* Styles for the pagination block */
+.Pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+/* Styles for the toggle buttons between the table and chart */
+.TabSwitcher {
+    position: absolute;
+    top: 57px;
+    left: 250px;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+}
+    /* Styles for the chart page */
+    .ChartPage {
+        background: #aedff7;
+        padding: 3%;
+        border-radius: 2%;
+        box-shadow: 0px 0px 10px 0px #ccc;
+        margin-bottom: 4%;
+        display: inline-block;
+        position: relative;
+    }
+        /* Styles for the table button */
+        .TableButton {
+            padding: 20px;
+            background-color: #aedff7;
+            color: black;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        /* Styles for the chart button */
+        .ChartButton {
+            padding: 20px;
+            background-color: #aedff7;
+            color: black;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+/* Define styling for the dataTable class */
+.dataTable {
+    border-collapse: collapse;
+    width: 100%; 
+    border: 3px solid #ddd;
+}
+
+/* Styling for sortable headers in tables */
+.sortableHeader {
+    border: 1px solid #ddd;
+    padding: 8px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Styling for table body rows */
+.dataBody {
+    text-align: center;
+    background-color: whitesmoke;
+    border: 3px solid #ddd;
+}
+
+/* Styles for the chart container */
+.ChartContainer {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+    /* Styles for the chart canvas within the container */
+    .ChartContainer canvas {
+        width: 100%;
+        height: 100%;
+        border: 1px solid #ddd;
+        border-radius: 3px;
+    }
